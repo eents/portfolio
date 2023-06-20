@@ -1,6 +1,7 @@
 :root {
     --color-1: rgb(14, 14 ,14);
     --color-2: rgb(238, 238, 238);
+    --color-temp: rgb(33, 33, 33);
 }
 
 /* @font-face {
@@ -23,8 +24,58 @@ body {
 }
 
 header {
-    outline: 1px solid red;
+    outline: 1px solid var(--color-temp);
     width: 90vw;
-    height: 6em;
+    height: 6vh;
     margin: 1.5em auto 0 auto;
+}
+
+#homepage-hero-section {
+    outline: 1px solid var(--color-temp);
+    width: 96vw;
+    height: 63vh;
+    margin: 1.5em auto 0 auto;
+}
+
+#homepage-carousel-section{
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid var(--color-temp);
+    width: 90vw;
+    margin: 3em auto 0 auto;
+}
+
+.homepage-carousel{
+    outline: 1px solid var(--color-temp);
+    width: 100%;
+    height: 60vh;
+}
+
+.homepage-carousel:nth-child(2), .homepage-carousel:nth-child(3){
+    margin-top: 3em;
+}
+
+#homepage-subpage-button-section {
+    outline: 1px solid var(--color-temp);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 96vw;
+    height: 33vh;
+    margin: 3em auto 0 auto;
+}
+
+.homepage-subpage-button{
+    outline: 1px solid var(--color-temp);
+    height: 100%;
+    width: 25%;
+}
+
+footer {
+    outline: 1px solid var(--color-temp);
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 3vh;
+    margin: 9em auto 1.5em auto;
 }
