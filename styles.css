@@ -1,0 +1,30 @@
+:root {
+    --color-1: rgb(14, 14 ,14);
+    --color-2: rgb(238, 238, 238);
+}
+
+/* @font-face {
+    font-family: deathFont;
+    src: url(lib/fonts/death-font.ttf);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    outline: 1px solid red;
+    width: 90vw;
+    height: 6em;
+    margin: 1.5em auto 0 auto;
+}
